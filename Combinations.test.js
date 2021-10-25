@@ -1573,7 +1573,7 @@ test("should have 1 unique combinations for 1 arbitrary currency name and denomi
  * {
  * }
  */
-test("should have 0 combinations when no parameters are passed in", () => {
+test("should throw an error saying the object is empty", () => {
   expect(() => {
     tools.findArbitraryCombinations({});
   }).toThrow("The currency object is empty");
@@ -2718,4 +2718,18 @@ test("should have 185 unique combinations, each should add up to 100", () => {
       ],
     })
   );
+});
+
+/**
+ * Test 6: Endpoint 2 with duplicate coin value, error is thrown with message saying
+ * Input parameters contain a duplicate coin denomination/value
+ */
+test("should throw an error saying input parameters have a duplicate value", () => {
+  expect(() => {
+    tools.findArbitraryCombinations({
+      pennies: 100,
+      button: 100,
+      doge: 50,
+    });
+  }).toThrow("Input parameters contain a duplicate coin denomination/value");
 });

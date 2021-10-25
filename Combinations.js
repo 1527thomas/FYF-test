@@ -110,6 +110,23 @@ module.exports = {
       coins.push(newCurrency[key]);
     }
 
+    // Check for duplicate values?
+    // Loop through from beginning of index and keep track of what values we have seen
+    // if the current index is in the set, then throw an error
+    // else just add it to the set and continue
+    const sortedCurrencyNames = Object.keys(sortedCurrency);
+    const unique = new Set();
+    for (let x = 0; x < sortedCurrencyNames.length; x++) {
+      // works if the naming convention is completely different, but the value is the same
+      if (unique.has(sortedCurrency[sortedCurrencyNames[x]])) {
+        throw new Error(
+          "Input parameters contain a duplicate coin denomination/value"
+        );
+      } else {
+        unique.add(sortedCurrency[sortedCurrencyNames[x]]);
+      }
+    }
+
     // since we sorted descending, the first value is the smallestValueCoin
     // 150, 3, 1.5
     const smallestValueCoin = coins[0];
@@ -120,7 +137,7 @@ module.exports = {
 
     const coinValueObject = {};
     for (let index = 0, j = 0; index < coins.length; index++) {
-      const newCurrencyNameKey = Object.keys(sortedCurrency)[index];
+      const newCurrencyNameKey = sortedCurrencyNames[index];
       coinValueObject[newCurrencyNameKey] = coins[index];
     }
 
