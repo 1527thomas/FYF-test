@@ -24,11 +24,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -84,18 +80,28 @@ NPM should be installed on your machine to install the dependencies that the pro
 
 ## Usage
 
-Once you have reached the homepage, the home screen will be presented with two buttons. </br>
+1. Once you have reached the homepage, the home screen will be presented with two buttons. <br />
+![Home Page Screen Shot][homepage-screenshot]
 
-The first button will take you the first endpoint and return data about the unique combinations you can make for a dollar with US coins. </br>
-The second button will take you to a form page where a user may create and find the unique combinations for their own currency.
+2. The first button will take you the first endpoint and return data about the unique combinations you can make for a dollar with US coins. <br />
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+![Endpoint One Screen Shot][endpointOne-screenshot]
 
-<!-- LICENSE -->
+3. The second button will take you to a form page where a user may create and find the unique combinations for their own currency. <br />
 
-## License
+![Form Page One Screen Shot][formone-screenshot]
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+4. Here a user is able to append as many types of currency as they would like using the append button. <br />
+
+![Form Page Two Screen Shot][formtwo-screenshot]
+
+5.After clicking submit, the user is redirected to the results page for the number of unique combinations as well as what they are. <br />
+
+![Endpoint Two Screen Shot][endpointtwo-screenshot]
+
+Extra Information: <br />
+As of now, when a user is creating their own currency, no duplicate coin values or names are allowed. This will throw an error and will not allow you 
+find the unique combinations.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
