@@ -84,10 +84,24 @@ NPM should be installed on your machine to install the dependencies that the pro
 
 ## Usage
 
-Once you have reached the homepage, the home screen will be presented with two buttons. </br>
+1. Once you have reached the homepage, the home screen will be presented with two buttons. <br />
+![Home Page Screen Shot][homepage-screenshot]
 
-The first button will take you the first endpoint and return data about the unique combinations you can make for a dollar with US coins. </br>
-The second button will take you to a form page where a user may create and find the unique combinations for their own currency.
+2. The first button will take you the first endpoint and return data about the unique combinations you can make for a dollar with US coins. <br />
+
+![Endpoint One Screen Shot][endpointOne-screenshot]
+
+3. The second button will take you to a form page where a user may create and find the unique combinations for their own currency. <br />
+
+![Form Page One Screen Shot][formone-screenshot]
+
+4. Here a user is able to append as many types of currency as they would like using the append button. <br />
+
+![Form Page Two Screen Shot][formtwo-screenshot]
+
+5.After clicking submit, the user is redirected to the results page for the number of unique combinations as well as what they are. <br />
+
+![Endpoint Two Screen Shot][endpointtwo-screenshot]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
