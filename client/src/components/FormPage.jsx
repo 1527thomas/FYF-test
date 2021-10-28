@@ -21,10 +21,6 @@ const EndpointTwoPage = () => {
         try {
 
             const body = {}
-            // currency.map((item) => (
-
-            //     body[item.name] = item.value
-            // ))
             currency.map((item) => {
                 if (item.name in body) {
                     throw new Error("Input parameters include a duplicate coin name");
@@ -53,7 +49,6 @@ const EndpointTwoPage = () => {
 
     const onSubmit = (data) => {
         const { currency } = data
-        // console.log(currency)
         // send currency as body to API and return the response and push it up to endpointTwo
         fetchAnarchyData(currency);
     };
