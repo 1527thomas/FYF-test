@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1635322991911" clover="3.2.0">
+  <project timestamp="1635322991911" name="All files">
+    <metrics statements="113" coveredstatements="90" conditionals="22" coveredconditionals="20" methods="19" coveredmethods="10" elements="154" coveredelements="120" complexity="0" loc="113" ncloc="113" packages="3" files="6" classes="6"/>
+    <package name="fyf-react-app">
+      <metrics statements="78" coveredstatements="78" conditionals="22" coveredconditionals="20" methods="6" coveredmethods="6"/>
+      <file name="Combinations.js" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/Combinations.js">
+        <metrics statements="78" coveredstatements="78" conditionals="22" coveredconditionals="20" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="11996" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="6962" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="242" type="stmt"/>
+        <line num="29" count="242" type="stmt"/>
+        <line num="30" count="8864" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="6720" type="stmt"/>
+        <line num="32" count="2144" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1344" type="stmt"/>
+        <line num="34" count="800" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="616" type="stmt"/>
+        <line num="36" count="184" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="184" type="stmt"/>
+        <line num="41" count="242" type="stmt"/>
+        <line num="43" count="242" type="stmt"/>
+        <line num="46" count="6720" type="stmt"/>
+        <line num="47" count="11995" type="stmt"/>
+        <line num="48" count="11995" type="stmt"/>
+        <line num="49" count="11995" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="85" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="93" count="4" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+        <line num="96" count="11" type="stmt"/>
+        <line num="99" count="4" type="stmt"/>
+        <line num="100" count="8" type="stmt"/>
+        <line num="103" count="4" type="stmt"/>
+        <line num="105" count="4" type="stmt"/>
+        <line num="106" count="11" type="stmt"/>
+        <line num="109" count="4" type="stmt"/>
+        <line num="110" count="11" type="stmt"/>
+        <line num="117" count="4" type="stmt"/>
+        <line num="118" count="4" type="stmt"/>
+        <line num="119" count="4" type="stmt"/>
+        <line num="121" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="126" count="9" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
+        <line num="134" count="3" type="stmt"/>
+        <line num="135" count="8" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="139" count="3" type="stmt"/>
+        <line num="140" count="8" type="stmt"/>
+        <line num="141" count="8" type="stmt"/>
+        <line num="145" count="3" type="stmt"/>
+        <line num="148" count="3" type="stmt"/>
+        <line num="151" count="3" type="stmt"/>
+        <line num="153" count="12755" type="cond" truecount="2" falsecount="0"/>
+        <line num="155" count="6321" type="cond" truecount="2" falsecount="0"/>
+        <line num="158" count="192" type="stmt"/>
+        <line num="159" count="192" type="stmt"/>
+        <line num="177" count="192" type="stmt"/>
+        <line num="178" count="759" type="stmt"/>
+        <line num="180" count="759" type="stmt"/>
+        <line num="181" count="759" type="stmt"/>
+        <line num="190" count="192" type="stmt"/>
+        <line num="191" count="7912" type="stmt"/>
+        <line num="192" count="7912" type="cond" truecount="1" falsecount="1"/>
+        <line num="193" count="7912" type="stmt"/>
+        <line num="197" count="192" type="stmt"/>
+        <line num="199" count="192" type="stmt"/>
+        <line num="202" count="6129" type="stmt"/>
+        <line num="203" count="12752" type="stmt"/>
+        <line num="204" count="12752" type="stmt"/>
+        <line num="205" count="12752" type="stmt"/>
+        <line num="209" count="3" type="stmt"/>
+        <line num="210" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="fyf-react-app.client.src">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="App.js" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/client/src/App.js">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="fyf-react-app.client.src.components">
+      <metrics statements="27" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="1"/>
+      <file name="EndpointOnePage.jsx" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/client/src/components/EndpointOnePage.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="EndpointTwoPage.jsx" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/client/src/components/EndpointTwoPage.jsx">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="FormPage.jsx" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/client/src/components/FormPage.jsx">
+        <metrics statements="19" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+      <file name="HomePage.jsx" path="/mnt/c/Users/1527t/Desktop/FYF React/fyf-react-app/client/src/components/HomePage.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
