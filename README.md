@@ -24,11 +24,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -103,13 +99,9 @@ NPM should be installed on your machine to install the dependencies that the pro
 
 ![Endpoint Two Screen Shot][endpointtwo-screenshot]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Extra Information: <br />
+As of now, when a user is creating their own currency, no duplicate coin values or names are allowed. This will throw an error and will not allow you 
+find the unique combinations.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
