@@ -19,10 +19,20 @@ const EndpointTwoPage = () => {
 
     const fetchAnarchyData = async (currency) => {
         try {
+
             const body = {}
-            currency.map((item) => (
-                body[item.name] = item.value
-            ))
+            // currency.map((item) => (
+
+            //     body[item.name] = item.value
+            // ))
+            currency.map((item) => {
+                if (item.name in body) {
+                    throw new Error("Input parameters include a duplicate coin name");
+                }
+                else {
+                    body[item.name] = item.value
+                }
+            })
 
             const { data } = await axios.get('http://localhost:5000/flowersAPI/anarchy', {
                 headers: {
@@ -43,6 +53,7 @@ const EndpointTwoPage = () => {
 
     const onSubmit = (data) => {
         const { currency } = data
+        // console.log(currency)
         // send currency as body to API and return the response and push it up to endpointTwo
         fetchAnarchyData(currency);
     };
